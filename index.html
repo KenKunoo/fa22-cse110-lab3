@@ -14,7 +14,7 @@
             <li><a href="#attendance">Attendance</a></li>
             <li><a href="#General">General Outline</a></li>
             <li><a href="#gtky">Get to Know You </a></li>
-            <li><a href="#name">Group Name </a></li>
+            <li><a href="#gname">Group Name </a></li>
             <li><a href="#availability">Availability </a></li>
             <li><a href="#language">Language </a></li>
             <li><a href="#availability">Availability </a></li>
@@ -70,35 +70,36 @@
             <fieldset>
                 <div>
                     <label for="name">Name: </label>
-                    <input type="text">
+                    <input type="text" id="name" name="name">
                 </div>
                 <div>  
                     <label for="pronouns">Pronouns: </label>
-                    <input type="text">
+                    <input type="text" id="pronouns" name="pronouns">
                 </div>
                 <div> 
                     <label for="hobby">Hobbies: </label>
-                    <input type="text">  
+                    <input type="text" id="hobby" name="hobby">  
                 </div>     
                 <div>
                     <label for="contact">Contact: </label>
-                    <input type="text">
+                    <input type="text" id="contact" name="contact">
                 </div>
             </fieldset>
             </form>
             <button>Submit</button>
         </section>
         <section>
-            <h2 id="name">Group Name</h2>
-            <label for="name">What should our group name be? </label>
-            <br><input type="text"></br>
+            <h2 id="gname">Group Name</h2>
+            <label for="groupname">What should our group name be? </label>
+            <br><input type="text" id="groupname" name="groupname">
         </section>
         <section>
             <h2 id="availability">Availability</h2>
          	What day are you free?
           	<br>
-            <input list="dayc" id="days" name="days">
-          	<datalist id="dayc">
+            <label for="day">Choose a day from the list:</label>
+            <input list="days" id="day" name="day">
+          	<datalist id="days">
                 <option value="Monday"></option>
                 <option value="Tuesday"></option>
                 <option value="Wednesday"></option>
@@ -107,14 +108,13 @@
                 <option value="Saturday"></option>
                 <option value="Sunday"></option>
             </datalist>
-            </br>
          </section>
          <section>
             <h2 id="language">Language</h2>
          	What Languages are you comfortable using?
           	<br>
-            <input list="Languages" id="language" name="language">
-            <select name="Languages" id="language">
+            <label for="language2">Choose a language:</label>
+            <select name="languages" id="language2">
                 <option value="C++">C++</option>
                 <option value="C">C</option>
                 <option value="C#">C#</option>
@@ -123,26 +123,25 @@
                 <option value="Javascript">Javascript</option>
                 <option value="Java">Java</option>
             </select>
-            </br>
          </section>
          <section>
-            <h2 id="language">Concern</h2>
+            <h2 id="concern">Concern</h2>
             DO YOU HAVE ANY CONCERNS?
-            <br></br>
+            <br>
             <textarea id="w3review" name="w3review" rows="5" cols="30">Please answer why if you have any concerns.
             </textarea>
         </section>
         <hr>
         Cool Video
-        <br></br>
+        <br>
         <video controls width="320" height="240" src="./fun.mp4">
         </video>
-        <br></br>
+        <br>
         Music
-        <br></br>
+        <br>
         <audio controls src="./popsmoke.mp3"> 
         </audio>
-        <br></br>
+        <br>
       </main>
       <footer>
         <hr>
