@@ -2,6 +2,7 @@
 ## Date: ##
 
 **__Kenny Fong__**
+
 What did I do yesterday?
 
 What are your goals today?
