@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+/* Main webpage background color */
+body {
+    background-image: linear-gradient(105deg, rgb(224, 189, 223) 51%, rgb(75, 8, 70) 96%);
+    
+  }
+
+/* Set universal text color */
+* {
+  color: rgb(255, 255, 255); /* color of all the elements should be pink */
+  font-family: 'Quicksand', sans-serif;
+}
+/* color */
+select {
+  color: rgb(0, 0, 0); 
+}
+option {
+  color: black;
+}
+#day {
+  color: black;
+}
+/* list options*/
+ul > li {
+  color:rgb(109, 18, 101);
+}
+/* footer */
+p + a{
+  color: rgb(211, 129, 28);
+}
+
+div ~ p {
+  background-color: rgb(229, 183, 255);
+}
+
+fieldset{
+  padding: 25px 25px 25px 25px;
+}
+/* Image Size for the meeting image */
+ul.mainImage {
+  padding: 25px 25px 25px 25px;
+}
+.mainImage {
+  border-style: solid;
+  border-color:rgb(160, 108, 156);
+  border-width: 5px;
+  border-radius: 5px;
+  width: 400px;
+  height: 400px;
+  max-width: 400px;
+  max-height: 400px;
+  position: static;
+}
+/* Attendence box */
+ul {
+  display:flex;
+  justify-content:space-evenly;
+  flex-grow:8;
+  flex-direction:column;
+  align-self:auto;
+}
+
+/* avaiability box */
+datalist > option {
+  color: rgb(255, 179, 226);
+}
+
+/* Concern box */
+#w3review {
+  background-color: #f783de;
+  width: 2.5in;
+  height: 55pt;
+  text-align: left;
+  margin:auto;
+}
+
+/* Get to know you title */
+#gtky {
+  width: 55vw;
+  height: 4vh;
+  margin: 1px 5px 25px 0px;
+  display:block;
+  text-decoration: underline;
+}
+/* Get to know you box */
+fieldset {
+  display:grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: 25% 50% 75% 100%;
+  gap: 5px 0px;
+}
+#outline {
+  display:inline;
+  margin-top: 50px;
+  margin-bottom: 25px;
+  margin-left: 0px;
+  margin-right: 25px;
+}
+/* change input text attributes */
+input[type="text"] {
+  color:rgb(160, 108, 156)
+}
+
+/* Big Main Header */
+main h1 {
+  color: rgb(127, 98, 129); /* color of all the elements should be pink */
+  font-size: 2em;
+}
+
+/* All Main Headers */
+main h1,h2,h3 {
+  font-style: italic;
+}
+
+/* Video */
+video[src="./fun.mp4"] {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 0px;
+}
+
+/* Music */
+audio[src="./popsmoke.mp3"] {
+  padding: 20px 0px 20px 10px;
+}
+
+/* button color change */
+button:hover
+{
+    background-color:rgb(252, 222, 248);
+}
+
+button:active
+{
+    background-color: rgb(255, 255, 255);
+}
+
+button {
+  position: relative;
+  top: 20px;
+  color:black;
+}
+
+/* reponsiveness */
+@media screen {
+  .mainImage {
+    border-style: solid;
+    border-color:rgb(160, 108, 156);
+    border-width: 2px;
+    border-radius: 2px;
+    width: 250px;
+    height: 250px;
+    max-width: 250px;
+    max-height: 250px;
+    position: static;
+  }
+}
