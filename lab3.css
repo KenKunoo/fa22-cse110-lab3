@@ -1,8 +1,26 @@
+/* Main webpage background color */
 body {
-    background-image: linear-gradient(105deg, rgb(247, 223, 246) 51%, rgb(126, 34, 120) 96%);
+    background-image: linear-gradient(105deg, rgb(224, 189, 223) 51%, rgb(75, 8, 70) 96%);
   }
 
+/* Set universal text color */
+* {
+  color: rgb(255, 255, 255); /* color of all the elements should be pink */
+}
+
+/* Image Size for the meetingp image */
 .mainImage {
   width: 400px;
   height: 400px;
+  max-width: 400px;
+  max-height: 400px;
 }
+
+/* Concern box */
+#w3review {
+  background-color: #f783de;
+  width: 3in;
+  height: 55pt;
+}
+
+/* Get to know you box */
