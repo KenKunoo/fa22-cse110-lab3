@@ -10,13 +10,36 @@ body {
   color: rgb(255, 255, 255); /* color of all the elements should be pink */
   font-family: 'Quicksand', sans-serif;
 }
-
+/* color */
+select {
+  color: rgb(0, 0, 0); 
+}
+option {
+  color: black;
+}
+#day {
+  color: black;
+}
 /* list options*/
 ul > li {
   color:rgb(109, 18, 101);
 }
+/* footer */
+p + a{
+  color: rgb(211, 129, 28);
+}
 
-/* Image Size for the meetingp image */
+div ~ p {
+  background-color: rgb(229, 183, 255);
+}
+
+fieldset{
+  padding: 25px 25px 25px 25px;
+}
+/* Image Size for the meeting image */
+ul.mainImage {
+  padding: 25px 25px 25px 25px;
+}
 .mainImage {
   border-style: solid;
   border-color:rgb(160, 108, 156);
