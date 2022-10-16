@@ -1,9 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
-/* Main webpage background color */
-body {
-    background-image: linear-gradient(105deg, rgb(224, 189, 223) 51%, rgb(75, 8, 70) 96%);
-    
-  }
 
 /* Set universal text color */
 * {
